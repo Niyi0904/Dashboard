@@ -1,15 +1,16 @@
 import React from 'react';
-import './App.css';
 import { Box, VStack, HStack } from '@chakra-ui/react';
 import Page1 from './components/page1';
+import Footer from './components/footer';
 
 const  App = () => {
   return (
-    <VStack>
-      <Box width='350px'>
+    <div>
+      <Box position='relative' w='59vh'>
         <Page1/>
+        <Footer/>
       </Box>
-    </VStack>
+    </div>
   );
 }
 

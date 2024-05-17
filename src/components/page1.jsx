@@ -9,7 +9,7 @@ import savings from '../data/savings.svg';
 const Page1 = () => {
   return (
     <div>
-      <Box bg='white' h='100%'>
+      <Box bg='white'>
         <Box pt='10px' ml='30px'>
           <Box>
             <Heading m='0' color='#001233' fontWeight='bold'>Budget</Heading>

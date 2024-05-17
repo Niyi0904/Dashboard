@@ -10,7 +10,7 @@ const Page1 = () => {
   return (
     <div>
       <Box bg='white' h='100%'>
-        <Box pt='10px' ml='15px'>
+        <Box pt='10px' ml='30px'>
           <Box>
             <Heading m='0' color='#001233' fontWeight='bold'>Budget</Heading>
             <HStack >
